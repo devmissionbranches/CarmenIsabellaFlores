@@ -166,7 +166,7 @@ nav p {
 nav ul {
   color:White;
   display: inline-block;
-  float: right;
+  float: center;
   list-style: none;
 }
 
