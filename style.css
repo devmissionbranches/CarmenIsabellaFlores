@@ -109,11 +109,12 @@ a:visied {
 
 .content-footer {
 	/* Layout Declarations */
-	margin-top: 5em;
 	padding: 4em 0;
 	/* Appearance Rules */
 	background-color: #594F49;
 }
+
+/* margin-top: 5em; DELETED */
 
 .content-footer > p {
   /* Typography Declarations */
