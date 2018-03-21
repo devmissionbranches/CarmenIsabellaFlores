@@ -4,7 +4,7 @@
 body{
   color:#794b20;
   Font-size: 1em;
-  font-family: 'Nixie One', cursive;
+  font-family:'Nixie One', cursive;
 }
 ::selection{
   background: #0092d1;
