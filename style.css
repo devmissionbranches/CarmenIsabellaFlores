@@ -5,6 +5,7 @@ body{
   color:#794b20;
   Font-size: 1em;
   font-family:'Nixie One', cursive;
+  margin: 0;
 }
 ::selection{
   background: #0092d1;
@@ -88,6 +89,7 @@ a:visied {
 .heading {
 	/* Layout Declarations */
 	max-width: 19em;
+  margin: 0;
 }
 
 /* margin-top: 2em; DELETED */
@@ -166,8 +168,11 @@ li {
 }
 
 
-.list {
-  background-color:#594F49
-  padding: 10px;
+.List {
+  background-color:#594F49;
 
+}
+
+dd, dl {
+  margin: 0;
 }
