@@ -73,7 +73,7 @@ a:visied {
 
 .masthead-heading {
 	/* Layout Declarations */
-	margin-top: ;
+	margin-top: -0.2em;
 	/* Typography Declarations */
 	color: #FFF1C2;
 	font-family: "Open Sans", "Helvetica Neue", sans-serif;
@@ -88,7 +88,7 @@ a:visied {
 .heading {
 	/* Layout Declarations */
 	max-width: 19em;
-	margin-top: 2em;
+	margin-top: ;
 }
 
 .question {
