@@ -4,7 +4,7 @@
 body{
   color:#794b20;
   Font-size: 1em;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Arbutus Slab"
 }
 ::selection{
   background: #0092d1;
@@ -149,5 +149,8 @@ img {
 
 .WhitespaceBackground{
 background-image: url("http://atgbcentral.com/data/out/183/5595830-grass-pictures.jpg")
+}
 
+nav {
+  background-color:
 }
