@@ -6,6 +6,7 @@ body{
   Font-size: 1em;
   font-family:'Nixie One', cursive;
   margin: 0;
+
 }
 ::selection{
   background: #0092d1;
@@ -13,7 +14,7 @@ body{
 a {
   font-weight: bold;
   text-decoration: none;
-  color:#5eb5d4;
+  color:#4b851e;
 }
 a:hover {
   color:#2e51a3;
@@ -165,13 +166,22 @@ ul {
 
 li {
  display: inline;
+ position: relative;
+ left: 715px;
+ border: 4.5px outset #5b4f48;
+ font-family: 'Cutive', serif;
+
 }
 
 
 .List {
   background-color:#594F49;
+  padding: 10px;
+  letter-spacing: 2px;
+  padding: 10px;
 
-} 
+
+}
 
 dd, dl {
   margin: 0;
