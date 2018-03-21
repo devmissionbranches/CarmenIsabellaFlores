@@ -57,10 +57,10 @@ a:visied {
 .masthead {
   padding: 6em 0;
   background-image: url(http://wallpaper-gallery.net/images/hd-wallpapers-background/hd-wallpapers-background-23.jpg);
-    background-repeat: no-repet;
+    background-repeat: no-repeat;
     background-size: cover;
     border-top: solid 1em #438944;
-    background-size:90%;
+    background-size: 90%;
 }
 .masthead-intro {
 	/* Layout Declarations */
