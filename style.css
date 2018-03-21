@@ -88,8 +88,9 @@ a:visied {
 .heading {
 	/* Layout Declarations */
 	max-width: 19em;
-	margin-top: 2em;
 }
+
+/* margin-top: 2em; DELETED */
 
 .question {
 	/* Layout Declarations */
