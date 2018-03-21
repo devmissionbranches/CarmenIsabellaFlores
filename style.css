@@ -60,6 +60,7 @@ a:visied {
     background-repeat: no-repet;
     background-size: cover;
     border-top: solid 1em #438944;
+    background-size:90%;
 }
 .masthead-intro {
 	/* Layout Declarations */
