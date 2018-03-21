@@ -64,7 +64,7 @@ a:visied {
 
 .masthead-intro {
 	/* Layout Declarations */
-	margin-bottom: ;
+	margin-bottom: 0.1em;
 	/* Typography Declarations */
 	color: #FFFFFF;
 	font-family: "Gentium Book Basic", Georgia, serif;
@@ -73,7 +73,7 @@ a:visied {
 
 .masthead-heading {
 	/* Layout Declarations */
-	margin-top: -0.2em;
+	margin-top: ;
 	/* Typography Declarations */
 	color: #FFF1C2;
 	font-family: "Open Sans", "Helvetica Neue", sans-serif;
