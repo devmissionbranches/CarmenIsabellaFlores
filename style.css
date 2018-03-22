@@ -4,8 +4,10 @@
 body{
   color:#794b20;
   Font-size: 1em;
+  font-weight: bold;
   font-family:'Nixie One', cursive;
   margin: 0;
+
 
 }
 ::selection{
@@ -112,7 +114,7 @@ a:visied {
 
 .content-footer {
 	/* Layout Declarations */
-	padding: 4em 0;
+	padding: 1em 0;
 	/* Appearance Rules */
 	background-color: #594F49;
 }
@@ -161,18 +163,28 @@ ul {
  list-style-type: none;
  margin: 0;
  padding: 0;
+ border: 10px ridge #5b4f50;
+ 
 
 }
 
 li {
+  text-align: center;
  display: inline;
  position: relative;
- left: 715px;
+ left: 5px;
  border: 4.5px outset #5b4f48;
  font-family: 'Cutive', serif;
 
 }
 
+.secondlist {
+display: inline;
+position: relative;
+left: 715px;
+border: 4.5px outset #5b4f48;
+font-family: 'Cutive', serif;
+}
 
 .List {
   background-color:#594F49;
