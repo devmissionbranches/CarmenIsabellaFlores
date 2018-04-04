@@ -2,10 +2,10 @@
   box-sizing: border-box;
 }
 body{
-  color:#794b20;
-  Font-size: 1em;
+  color:#856e57;
+  Font-size: 20px;
   font-weight: bold;
-  font-family:'Nixie One', cursive;
+  font-family: 'Chicle', cursive;
   margin: 0;
 
 
@@ -16,10 +16,10 @@ body{
 a {
   font-weight: bold;
   text-decoration: none;
-  color:#4b851e;
+  color:#ead18f;
 }
 a:hover {
-  color:#2e51a3;
+  color:#fff;
 }
 a:visied {
   color:#3e5ca8;
@@ -60,20 +60,21 @@ margin-right: auto;*/
   font-weight: 300;
   letter-spacing: 0.05em;
 }
+
 .masthead {
   padding: 6em 0;
-  background-image: url(http://wallpaper-gallery.net/images/hd-wallpapers-background/hd-wallpapers-background-23.jpg);
+  background-image: url(https://wallpaper.wiki/wp-content/uploads/2017/06/Free-backgrounds-webmed-wallpapers-kawaii.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: solid 1em #438944;
+    border-top: solid 1em #856e57;
 }
 
 .masthead-intro {
 	/* Layout Declarations */
 	margin-bottom: 0.1em;
 	/* Typography Declarations */
-	color: #FFFFFF;
-	font-family: "Gentium Book Basic", Georgia, serif;
+	color: #6f4e2f;
+	font-family: 'Chicle', cursive;
 	font-size: 2em;
 }
 
@@ -81,14 +82,14 @@ margin-right: auto;*/
 	/* Layout Declarations */
 	margin-top: -0.2em;
 	/* Typography Declarations */
-	color: #FFF1C2;
-	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	color: #d84bab;
+	font-family: 'Chicle', cursive;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 6em;
 	letter-spacing: -0.02em;
 	text-transform: uppercase;
-	text-shadow: 0px 3px 0px #FFCF33;
+	text-shadow: 0px 3px 0px #e792cc;
 }
 
 .heading {
@@ -99,12 +100,13 @@ margin-right: auto;*/
 
 /* margin-top: 2em; DELETED */
 
+
 .question {
 	/* Layout Declarations */
 	margin: 2em 0 1em 0;
 	/* Typography Declarations */
-	color: #FFCF33;
-	font-family: "Gentium Book Basic", Georgia, serif;
+	color: #d53fa5;
+	font-family: 'Chicle', cursive;
 	font-size: 1.2em;
 	font-weight: bold;
 }
@@ -114,33 +116,9 @@ margin-right: auto;*/
 	margin-left: 0em;
 }
 
-.content-footer {
-	/* Layout Declarations */
-	padding: 1em 0;
-	/* Appearance Rules */
-	background-color: #594F49;
-}
 
-/* margin-top: 5em; DELETED */
 
-.content-footer > p {
-  /* Typography Declarations */
-  color: white;
-}
 
-.social {
-	/* Layout Declarations */
-	padding: 0;
-	/* Appearance Declarations */
-	list-style: none;
-}
-
-.social > li {
-	/* Layout Declarations */
-	display: inline-block;
-	margin-right: 1em;
-
-}
 
 @media screen and (max-width: 500px) {
   .masthead {
@@ -150,22 +128,27 @@ margin-right: auto;*/
     font-size: 3em;
   }
 }
-img {
+
+/*img {
   width: 300px;
   margin-left: 800px;
   margin-top: 50px;
-  border: 15px ridge #704124;
-}
+  border: 7px ridge #856e57;
+}*/
 
 .WhitespaceBackground{
-background-image: url("http://atgbcentral.com/data/out/183/5595830-grass-pictures.jpg")
-}
+background-image: url("https://www.walldevil.com/wallpapers/a33/1815-wallpaper-custom-super-kawaii.jpg");
+  background-repeat: no-repeat;
+    background-size: cover;}
+
+
+
 
 ul {
  list-style-type: none;
  margin: 0;
  padding: 0;
- border: 10px ridge #5b4f50;
+ border: 10px ridge #856e57;
  }
 
 li {
@@ -173,8 +156,8 @@ li {
  display: inline;
  position: relative;
  left: 5px;
- border: 4.5px outset #5b4f48;
- font-family: 'Cutive', serif;
+ border: 4.5px outset #856e57;
+ font-family: 'Chicle', cursive;
 
 }
 
@@ -182,12 +165,12 @@ li {
 display: inline;
 position: relative;
 left: 715px;
-border: 4.5px outset #5b4f48;
-font-family: 'Cutive', serif;
+border: 4.5px outset ##9b24db;
+font-family: 'Chicle', cursive;
 }
 
 .List {
-  background-color:#594F49;
+  background-color: hsla(30, 21%, 43%, 1);
   padding: 10px;
   letter-spacing: 2px;
   padding: 10px;
@@ -202,94 +185,25 @@ dd, dl {
 
 
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+.instagram {
+  width: 300px;
+  margin-left: 800px;
+  margin-top: 50px;
+  border: 7px ridge #856e57;
+ }
+
+.icon {width: 60px;
+  height:60px;
+  margin-left: 18px;
+  margin-top: 0px;
+  }
+
+/* border: 3px dotted #4e3318;*/
+
+.content-footer {
+	background-color: hsla(30, 21%, 43%, 1);
+  border: 15px ridge #856e57
 }
 
-/* Hide the images by default */
-.mySlides {
-    display: none;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
+/*padding: 1em 0;*/
+/* margin-top: 5em; DELETED */
