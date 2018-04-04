@@ -2,10 +2,10 @@
   box-sizing: border-box;
 }
 body{
-  color:#794b20;
-  Font-size: 1em;
+  color:#c62a9f;
+  Font-size: 20px;
   font-weight: bold;
-  font-family:'Nixie One', cursive;
+  font-family: 'Chicle', cursive;
   margin: 0;
 
 
@@ -16,10 +16,10 @@ body{
 a {
   font-weight: bold;
   text-decoration: none;
-  color:#4b851e;
+  color:#ead18f;
 }
 a:hover {
-  color:#2e51a3;
+  color:#ead18f;
 }
 a:visied {
   color:#3e5ca8;
@@ -62,18 +62,18 @@ margin-right: auto;*/
 }
 .masthead {
   padding: 6em 0;
-  background-image: url(http://wallpaper-gallery.net/images/hd-wallpapers-background/hd-wallpapers-background-23.jpg);
+  background-image: url(https://wallpaper.wiki/wp-content/uploads/2017/06/Free-backgrounds-webmed-wallpapers-kawaii.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    border-top: solid 1em #438944;
+    border-top: solid 1em #856e57;
 }
 
 .masthead-intro {
 	/* Layout Declarations */
 	margin-bottom: 0.1em;
 	/* Typography Declarations */
-	color: #FFFFFF;
-	font-family: "Gentium Book Basic", Georgia, serif;
+	color: #6f4e2f;
+	font-family: 'Chicle', cursive;
 	font-size: 2em;
 }
 
@@ -81,14 +81,14 @@ margin-right: auto;*/
 	/* Layout Declarations */
 	margin-top: -0.2em;
 	/* Typography Declarations */
-	color: #FFF1C2;
-	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	color: #d84bab;
+	font-family: 'Chicle', cursive;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 6em;
 	letter-spacing: -0.02em;
 	text-transform: uppercase;
-	text-shadow: 0px 3px 0px #FFCF33;
+	text-shadow: 0px 3px 0px #e792cc;
 }
 
 .heading {
@@ -103,8 +103,8 @@ margin-right: auto;*/
 	/* Layout Declarations */
 	margin: 2em 0 1em 0;
 	/* Typography Declarations */
-	color: #FFCF33;
-	font-family: "Gentium Book Basic", Georgia, serif;
+	color: #d53fa5;
+	font-family: 'Chicle', cursive;
 	font-size: 1.2em;
 	font-weight: bold;
 }
@@ -118,7 +118,7 @@ margin-right: auto;*/
 	/* Layout Declarations */
 	padding: 1em 0;
 	/* Appearance Rules */
-	background-color: #594F49;
+	background-color: #625347;
 }
 
 /* margin-top: 5em; DELETED */
@@ -154,18 +154,22 @@ img {
   width: 300px;
   margin-left: 800px;
   margin-top: 50px;
-  border: 15px ridge #704124;
+  border: 15px ridge #856e57;
 }
 
 .WhitespaceBackground{
-background-image: url("http://atgbcentral.com/data/out/183/5595830-grass-pictures.jpg")
+background-image: url("https://www.walldevil.com/wallpapers/a33/1815-wallpaper-custom-super-kawaii.jpg");
+  background-repeat: no-repeat;
+    background-size: cover;
+
+
 }
 
 ul {
  list-style-type: none;
  margin: 0;
  padding: 0;
- border: 10px ridge #5b4f50;
+ border: 10px ridge #856e57;
  }
 
 li {
@@ -173,8 +177,8 @@ li {
  display: inline;
  position: relative;
  left: 5px;
- border: 4.5px outset #5b4f48;
- font-family: 'Cutive', serif;
+ border: 4.5px outset #856e57;
+ font-family: 'Chicle', cursive;
 
 }
 
@@ -182,12 +186,12 @@ li {
 display: inline;
 position: relative;
 left: 715px;
-border: 4.5px outset #5b4f48;
-font-family: 'Cutive', serif;
+border: 4.5px outset ##9b24db;
+font-family: 'Chicle', cursive;
 }
 
 .List {
-  background-color:#594F49;
+  background-color:#625347;
   padding: 10px;
   letter-spacing: 2px;
   padding: 10px;
