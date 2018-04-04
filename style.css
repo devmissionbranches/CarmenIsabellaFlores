@@ -7,6 +7,7 @@ body{
   font-weight: bold;
   font-family: 'Chicle', cursive;
   margin: 0;
+  width:100%;
 
 
 }
@@ -139,7 +140,9 @@ margin-right: auto;*/
 .WhitespaceBackground{
 background-image: url("https://www.walldevil.com/wallpapers/a33/1815-wallpaper-custom-super-kawaii.jpg");
   background-repeat: no-repeat;
-    background-size: cover;}
+    background-size: cover;
+  display:flex;
+}
 
 
 
@@ -165,10 +168,9 @@ li {
 
 .secondlist {
 display: inline;
-position: relative;
-left: 670px;
 border: 4.5px outset ##9b24db;
 font-family: 'Chicle', cursive;
+display:inline-block;
 }
 
 .List {
@@ -176,7 +178,8 @@ font-family: 'Chicle', cursive;
   padding: 10px;
   letter-spacing: 2px;
   padding: 10px;
-
+  margin: 0 auto;
+  text-align: center;
 
 }
 
@@ -216,10 +219,19 @@ dd, dl {
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
-  position: relative;
-  right: 15%;
+
 }
 
+.right {
+  width: 50%;
+ padding: 4%;
+}
+
+.left{
+  width: 50%;
+  padding:2%;
+
+}
 /* Hide the images by default */
 .mySlides {
     display: none;
@@ -228,7 +240,7 @@ dd, dl {
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
-  position: absolute;
+  position: relative;
   top: 50%;
   width: auto;
   margin-top: -22px;
@@ -256,7 +268,7 @@ dd, dl {
   color: #f2f2f2;
   font-size: 20px;
   padding: 8px 12px;
-  position: absolute;
+  position: relative;
   bottom: 8px;
   width: 100%;
   text-align: center;
@@ -267,7 +279,7 @@ dd, dl {
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
-  position: absolute;
+  position: relative;
   top: 0;
 }
 
