@@ -2,7 +2,11 @@
   box-sizing: border-box;
 }
 body{
+<<<<<<< HEAD
   color:#856e57;
+=======
+  color:#c62a9f;
+>>>>>>> e93a95a092a1fbcf98899a3e228bdb4b2a6efae6
   Font-size: 20px;
   font-weight: bold;
   font-family: 'Chicle', cursive;
@@ -19,7 +23,11 @@ a {
   color:#ead18f;
 }
 a:hover {
+<<<<<<< HEAD
   color:#fff;
+=======
+  color:#ead18f;
+>>>>>>> e93a95a092a1fbcf98899a3e228bdb4b2a6efae6
 }
 a:visied {
   color:#3e5ca8;
@@ -116,6 +124,22 @@ margin-right: auto;*/
 	margin-left: 0em;
 }
 
+<<<<<<< HEAD
+=======
+.content-footer {
+	/* Layout Declarations */
+	padding: 1em 0;
+	/* Appearance Rules */
+	background-color: #625347;
+}
+
+/* margin-top: 5em; DELETED */
+
+.content-footer > p {
+  /* Typography Declarations */
+  color: white;
+}
+>>>>>>> e93a95a092a1fbcf98899a3e228bdb4b2a6efae6
 
 
 
@@ -133,16 +157,28 @@ margin-right: auto;*/
   width: 300px;
   margin-left: 800px;
   margin-top: 50px;
+<<<<<<< HEAD
   border: 7px ridge #856e57;
 }*/
+=======
+  border: 15px ridge #856e57;
+}
+>>>>>>> e93a95a092a1fbcf98899a3e228bdb4b2a6efae6
 
 .WhitespaceBackground{
 background-image: url("https://www.walldevil.com/wallpapers/a33/1815-wallpaper-custom-super-kawaii.jpg");
   background-repeat: no-repeat;
+<<<<<<< HEAD
     background-size: cover;}
 
 
 
+=======
+    background-size: cover;
+
+
+}
+>>>>>>> e93a95a092a1fbcf98899a3e228bdb4b2a6efae6
 
 ul {
  list-style-type: none;
@@ -170,7 +206,11 @@ font-family: 'Chicle', cursive;
 }
 
 .List {
+<<<<<<< HEAD
   background-color: hsla(30, 21%, 43%, 1);
+=======
+  background-color:#625347;
+>>>>>>> e93a95a092a1fbcf98899a3e228bdb4b2a6efae6
   padding: 10px;
   letter-spacing: 2px;
   padding: 10px;
@@ -181,6 +221,7 @@ font-family: 'Chicle', cursive;
 dd, dl {
   margin: 0;
 }
+<<<<<<< HEAD
 
 
 
@@ -207,3 +248,5 @@ dd, dl {
 
 /*padding: 1em 0;*/
 /* margin-top: 5em; DELETED */
+=======
+>>>>>>> e93a95a092a1fbcf98899a3e228bdb4b2a6efae6
