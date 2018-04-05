@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body{
-  color:#44382c;
+  color:#856e57;
   Font-size: 20px;
   font-weight: bold;
   font-family: 'Chicle', cursive;
@@ -323,5 +323,10 @@ dd, dl {
 
 .puppy{
   width: 25%;
+  float: right;
+}
+
+.quote {
+  color:#44382c;
   float: right;
 }

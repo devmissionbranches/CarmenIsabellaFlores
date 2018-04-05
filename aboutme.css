@@ -231,3 +231,8 @@ dd, dl {
   width: 80%;
   border: 15px ridge #856e57
 }
+
+.quote {
+  color:#44382c;
+  float: right;
+}

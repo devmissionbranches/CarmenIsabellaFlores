@@ -259,3 +259,7 @@ dd, dl {
   position: ?;
 
 }
+.quote {
+  color:#44382c;
+  float: right;
+}

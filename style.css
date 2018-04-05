@@ -325,3 +325,8 @@ dd, dl {
   width: 25%;
   float: right;
 }
+
+.quote {
+  color:#44382c;
+  float: right;
+}
