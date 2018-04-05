@@ -123,9 +123,9 @@ margin: 0;
 }
 
 .WhitespaceBackground{
-   background-image: url("resume.jpg");
+   background-image: url("http://s3.amazonaws.com/feather-files-aviary-prod-us-east-1/h6x69kt5qn4mwje1/2018-04-05/9ac0a0d860e24365b719006a8df3d953.jpg");
    background-position: center;
-  background-size: cover;
+   background-size: cover;
    }
 
 
