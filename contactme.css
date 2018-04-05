@@ -1,0 +1,248 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: 'Chicle', cursive;
+  font-color: #0092d1;
+
+
+}
+
+::selection{
+  background: #0092d1;
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color:#ead18f;
+}
+a:hover {
+  color:#fff;
+}
+a:visied {
+  color:#3e5ca8;
+}
+
+
+
+.masthead,
+
+{
+  padding-left: 2em;
+  padding-right: 2em;
+
+}
+
+.masthead-intro,
+.masthead-heading,
+.content-footer > p,
+.social {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url(https://wallpaper.wiki/wp-content/uploads/2017/06/Free-backgrounds-webmed-wallpapers-kawaii.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid 1em #856e57;
+}
+
+.masthead-intro {
+	margin-bottom: 0.1em;
+	color: #6f4e2f;
+	font-family: 'Chicle', cursive;
+	font-size: 2em;
+}
+
+.masthead-heading {
+	margin-top: -0.2em;
+	color: #d84bab;
+	font-family: 'Chicle', cursive;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 6em;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+	text-shadow: 0px 3px 0px #e792cc;
+}
+
+.heading {
+	max-width: 19em;
+  margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .masthead {
+    padding:  3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+}
+
+.heading {color:#856e57;
+  Font-size: 30px;
+  font-weight: bold;
+  font-family: 'Chicle', cursive;
+  margin: 0;
+  width:100%;}
+
+.content-footer > p
+
+.objective > p,
+.summary > p ,
+.education > p,
+.work > p,
+.skill > p,
+{  color:#856e57;
+  Font-size: 30px;
+  font-weight: bold;
+  font-family: 'Chicle', cursive;
+  margin: 0;
+  width:100%;
+
+}
+
+p {color:#856e57;
+  Font-size: 20px;
+  font-weight: ;
+  font-family: 'Chicle', cursive;
+  margin: 0;
+  width:50%;
+
+}
+
+
+
+.WhitespaceBackground{
+background-image: url("https://i.pinimg.com/originals/d2/a4/6d/d2a46db3082bb3b979eb1182635852f0.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+   }
+
+
+
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ border: 10px ridge #856e57;
+ }
+
+li {
+ text-align: center;
+ display: inline;
+ position: relative;
+ left: 5px;
+ border: 4.5px outset #856e57;
+ font-family: 'Chicle', cursive;
+ font-size:30px;
+ margin: 7px;
+
+}
+
+.secondlist {
+display: inline;
+border: 4.5px outset ##9b24db;
+font-family: 'Chicle', cursive;
+display:inline-block;
+}
+
+.List {
+  background-color: hsla(30, 21%, 43%, 1);
+  padding: 10px;
+  letter-spacing: 2px;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+dd, dl {
+  margin: 0;
+}
+
+
+
+
+.instagram {
+  width: 15%;
+  margin-left: 42.5%;
+  border: 7px ridge #856e57;
+
+ }
+
+.icon {width: 60px;
+  height:60px;
+  margin-left: 18px;
+  margin-top: 0px;
+  }
+
+
+.content-footer {
+	background-color: hsla(30, 21%, 43%, 1);
+  border: 15px ridge #856e57
+}
+
+
+
+
+
+/*.right {
+  width: 50%;
+ padding: 4%;
+}
+
+
+.left{
+  width: 50%;
+  padding:2%;
+
+}*/
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+      font-family: 'Chicle', cursive;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #856e57;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Chicle', cursive;
+    font-color: #856e57;
+}
+
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #665442;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 24.5%;
+    margin-left: 37.5%;
+    border: 7px ridge #856e57;
+    margin-bottom: 100px;
+
+
+}
