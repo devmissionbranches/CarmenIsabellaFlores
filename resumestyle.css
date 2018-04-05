@@ -70,10 +70,14 @@ a:visied {
 	text-shadow: 0px 3px 0px #e792cc;
 }
 
+
 .heading {
 	max-width: 19em;
   margin: 0;
+
 }
+
+
 
 @media screen and (max-width: 500px) {
   .masthead {
@@ -84,48 +88,43 @@ a:visied {
   }
 }
 
+
 .heading {
 
 }
 
-.objective,
-.summary,
-.education,
-.work,
-.skill,
-{  color:#856e57;
-  Font-size: 20px;
-  font-weight: bold;
-  font-family: 'Chicle', cursive;
-  margin: 0;
+
+
+.para{  color:#64483a;
+    Font-size: 22px;
+  font-family: 'Poiret One', cursive;
+ text-align: center;
+margin: 0;
   width:100%;
 
 }
 
-.summary {
+.title {color:#64483a;
+    Font-size: 35px;
+  font-family: 'Poiret One', cursive;
+ text-align: center;
+margin: 0;
+  width:100%;
 
 }
 
-.education {
+.maintitle{ color:#64483a;
+    Font-size: 45px;
+  font-family: 'Poiret One', cursive;
+ text-align: center;
+margin: 0;
+  width:100%;
 
 }
-
-.work {
-
-}
-
-.skill{
-
-}
-
-
-
-
-
 
 .WhitespaceBackground{
-background-image: url("https://www.desktopbackground.org/download/1366x768/2011/11/26/302952_kawaii-desktop-backgrounds-wallpapers-cave_1920x1080_h.jpg");
-  background-repeat: no-repeat;
+background-image: url("cloud.jpg");
+ background-position: center;
   background-size: cover;
    }
 
@@ -194,7 +193,11 @@ dd, dl {
 }
 
 
-
+.gifpicture {
+  width: 13%;
+  margin-left: 43.5%;
+  border: 5px ridge #856e57
+}
 
 
 /*.right {
