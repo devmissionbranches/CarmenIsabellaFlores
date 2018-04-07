@@ -197,14 +197,17 @@ dd, dl {
 
  }
 
-
+.icon {width: 60px;
+  height:60px;
+  margin-left: 18px;
+  margin-top: 0px;
+  }
 
 /* border: 3px dotted #4e3318;*/
 
 .content-footer {
 	background-color: hsla(30, 21%, 43%, 1);
-  border: 15px ridge #856e57;
-  
+  border: 15px ridge #856e57
 }
 
 /*padding: 1em 0;*/
@@ -295,7 +298,6 @@ dd, dl {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
 .active, .dot:hover {
   background-color: #717171;
 }*/
@@ -323,22 +325,7 @@ dd, dl {
   float: right;
 }
 
-
-
-
-
-.content-footer > p {
-  color:#44382c;
-  display:inline-block;
-  }
-
-.icon {width: 60px;
-  height:60px;
-  margin-left: 18px;
-  margin-top: 15px;
-  }
-
 .quote {
-  margin-top: 35px;
+  color:#44382c;
   float: right;
 }
