@@ -204,7 +204,7 @@ dd, dl {
 .content-footer {
 	background-color: hsla(30, 21%, 43%, 1);
   border: 15px ridge #856e57;
-  overflow: auto;
+  
 }
 
 /*padding: 1em 0;*/
