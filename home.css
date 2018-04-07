@@ -330,3 +330,8 @@ dd, dl {
   color:#44382c;
   float: right;
 }
+
+
+.content-footer > p {
+  color:#44382c;
+}
