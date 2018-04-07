@@ -200,14 +200,15 @@ dd, dl {
 .icon {width: 60px;
   height:60px;
   margin-left: 18px;
-  margin-top: 0px;
+  margin-top: 15px;
   }
 
 /* border: 3px dotted #4e3318;*/
 
 .content-footer {
 	background-color: hsla(30, 21%, 43%, 1);
-  border: 15px ridge #856e57
+  border: 15px ridge #856e57;
+  overflow: auto;
 }
 
 
@@ -233,6 +234,12 @@ dd, dl {
 }
 
 .quote {
-  color:#44382c;
+  margin-top: 35px;
   float: right;
+
 }
+
+.content-footer > p {
+  color:#44382c;
+  display:inline-block;
+  }
