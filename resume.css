@@ -109,10 +109,9 @@ a:visied {
 }
 
 .WhitespaceBackground {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIfuydWuita5B-gdatfVveVbTmMhfar-D2MEXsMxz6bg2-hj2_");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-image: url("resume.jpg");
+background-repeat: repeat;
+background-size: 100%;
 
 }
 
