@@ -125,8 +125,8 @@ margin: 0;
 .WhitespaceBackground{
 background-image: url("resume.jpg");
   background-repeat: no-repeat;
-  width:1080px;
-  height: 980px;
+  background-size: cover;
+display:flex;
    }
 
 
