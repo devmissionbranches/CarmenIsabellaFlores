@@ -1,159 +1,144 @@
 * {
   box-sizing: border-box;
 }
-body{
-  color:#856e57;
+
+body {
+  color: #856e57;
   Font-size: 20px;
   font-weight: bold;
   font-family: 'Chicle', cursive;
   margin: 0;
-  width:100%;
-
-
+  width: 100%;
 }
-::selection{
+
+::selection {
   background: #0092d1;
 }
+
 a {
   font-weight: bold;
   text-decoration: none;
-  color:#ead18f;
+  color: #ead18f;
 }
+
 a:hover {
-  color:#fff;
+  color: #fff;
 }
+
 a:visied {
-  color:#3e5ca8;
+  color: #3e5ca8;
 }
 
-
-
-.masthead,
-
-{
+.masthead, {
   padding-left: 2em;
   padding-right: 2em;
-
 }
 
-.masthead-intro,
-.masthead-heading,
-.content-footer > p,
-.social {
+.masthead-intro, .masthead-heading, .content-footer>p, .social {
   text-align: center;
 }
 
 .masthead {
   padding: 6em 0;
   background-image: url(https://wallpaper.wiki/wp-content/uploads/2017/06/Free-backgrounds-webmed-wallpapers-kawaii.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top: solid 1em #856e57;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em #856e57;
 }
 
 .masthead-intro {
-	margin-bottom: 0.1em;
-	color: #6f4e2f;
-	font-family: 'Chicle', cursive;
-	font-size: 2em;
+  margin-bottom: 0.1em;
+  color: #6f4e2f;
+  font-family: 'Chicle', cursive;
+  font-size: 2em;
 }
 
 .masthead-heading {
-	margin-top: -0.2em;
-	color: #d84bab;
-	font-family: 'Chicle', cursive;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 6em;
-	letter-spacing: -0.02em;
-	text-transform: uppercase;
-	text-shadow: 0px 3px 0px #e792cc;
+  margin-top: -0.2em;
+  color: #d84bab;
+  font-family: 'Chicle', cursive;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-shadow: 0px 3px 0px #e792cc;
 }
-
 
 .heading {
-	max-width: 19em;
+  max-width: 19em;
   margin: 0;
-
 }
-
-
 
 @media screen and (max-width: 500px) {
   .masthead {
-    padding:  3em 0;
+    padding: 3em 0;
   }
   .masthead-heading {
     font-size: 3em;
   }
 }
 
+.heading {}
 
-.heading {
-
-}
-
-
-
-.para{  color:#64483a;
-    Font-size: 22px;
+.para {
+  color: #64483a;
+  Font-size: 22px;
   font-family: 'Poiret One', cursive;
- text-align: center;
-margin: 0;
-  width:100%;
-
+  text-align: center;
+  margin: 0;
+  width: 100%;
 }
 
-.title {color:#64483a;
-    Font-size: 35px;
+.title {
+  color: #64483a;
+  Font-size: 35px;
   font-family: 'Poiret One', cursive;
- text-align: center;
-margin: 0;
-  width:100%;
-
+  text-align: center;
+  margin: 0;
+  width: 100%;
 }
 
-.maintitle{ color:#64483a;
-    Font-size: 45px;
+.maintitle {
+  color: #64483a;
+  Font-size: 45px;
   font-family: 'Poiret One', cursive;
- text-align: center;
-margin: 0;
-  width:100%;
-
+  text-align: center;
+  margin: 0;
+  width: 100%;
 }
 
-.WhitespaceBackground{
-background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIfuydWuita5B-gdatfVveVbTmMhfar-D2MEXsMxz6bg2-hj2_");
-background-repeat: no-repeat;
-    background-size: cover;
-   }
+.WhitespaceBackground {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIfuydWuita5B-gdatfVveVbTmMhfar-D2MEXsMxz6bg2-hj2_");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
-
+}
 
 ul {
- list-style-type: none;
- margin: 0;
- padding: 0;
- border: 10px ridge #856e57;
- }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 10px ridge #856e57;
+}
 
 li {
- text-align: center;
- display: inline;
- position: relative;
- left: 5px;
- border: 4.5px outset #856e57;
- font-family: 'Chicle', cursive;
- font-size:30px;
- margin: 7px;
-
+  text-align: center;
+  display: inline;
+  position: relative;
+  left: 5px;
+  border: 4.5px outset #856e57;
+  font-family: 'Chicle', cursive;
+  font-size: 30px;
+  margin: 7px;
 }
 
 .secondlist {
-display: inline;
-border: 4.5px outset ##9b24db;
-font-family: 'Chicle', cursive;
-display:inline-block;
+  display: inline;
+  border: 4.5px outset ##9b24db;
+  font-family: 'Chicle', cursive;
+  display: inline-block;
 }
 
 .List {
@@ -163,37 +148,30 @@ display:inline-block;
   padding: 10px;
   margin: 0 auto;
   text-align: center;
-
 }
 
 dd, dl {
   margin: 0;
 }
 
-
-
-
 .instagram {
   width: 15%;
   margin-left: 42.5%;
   border: 7px ridge #856e57;
-
- }
-
-.icon {width: 60px;
-  height:60px;
-  margin-left: 18px;
-  margin-top: 15px;
-  }
-
-
-.content-footer {
-	background-color: hsla(30, 21%, 43%, 1);
-  border: 15px ridge #856e57;
-  overflow: auto;
-
 }
 
+.icon {
+  width: 60px;
+  height: 60px;
+  margin-left: 18px;
+  margin-top: 15px;
+}
+
+.content-footer {
+  background-color: hsla(30, 21%, 43%, 1);
+  border: 15px ridge #856e57;
+  overflow: auto;
+}
 
 .gifpicture {
   width: 13%;
@@ -206,10 +184,10 @@ dd, dl {
   float: right;
 }
 
-.content-footer > p {
-  color:#44382c;
-  display:inline-block;
-  }
+.content-footer>p {
+  color: #44382c;
+  display: inline-block;
+}
 
 /*.right {
   width: 50%;
