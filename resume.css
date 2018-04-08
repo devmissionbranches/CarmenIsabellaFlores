@@ -123,10 +123,8 @@ margin: 0;
 }
 
 .WhitespaceBackground{
-background-image: url("resume.jpg");
-background-repeat: no-repeat;
-  background-size: cover;
-display:flex;
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIfuydWuita5B-gdatfVveVbTmMhfar-D2MEXsMxz6bg2-hj2_");
+
    }
 
 
@@ -199,7 +197,7 @@ dd, dl {
 .gifpicture {
   width: 13%;
   margin-left: 43.5%;
-  border: 5px ridge #856e57
+  border: 5px ridge #856e57;
 }
 
 .quote {
