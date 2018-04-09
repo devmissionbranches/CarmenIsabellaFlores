@@ -163,7 +163,9 @@ dd, dl {
 }
 
 
-
+.website {
+  width: 50%;
+}
 
 
 .quote {
@@ -174,4 +176,16 @@ dd, dl {
 .content-footer > p {
   color:#44382c;
   display:inline-block;
+  }
+
+  .right {
+    width: 50%;
+   padding: 4%;
+  }
+
+
+  .left{
+    width: 50%;
+    padding:2%;
+
   }
