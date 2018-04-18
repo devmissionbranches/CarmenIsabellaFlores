@@ -193,8 +193,13 @@ dd, dl {
   .picture {
     width: 25%;
   }
-  .picturetitle {
-    font-family: 'Chicle', cursive;
+  .picturetitlefirst {
+  margin-top:0;
+  font-family: 'Chicle', cursive;
   font-size:30px;
+  }
 
+  .picturetitle{  margin-top:0;
+    font-family: 'Chicle', cursive;
+    font-size:30px;
   }
