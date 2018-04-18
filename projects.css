@@ -189,3 +189,7 @@ dd, dl {
     padding:2%;
 
   }
+
+  .picture {
+    width: 25%; 
+  }
