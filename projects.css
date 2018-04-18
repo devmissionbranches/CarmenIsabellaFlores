@@ -193,7 +193,15 @@ dd, dl {
   .picture {
     width: 25%;
     border: 15px ridge #856e57;
+
   }
+
+  img.picture {
+    vertical-align: text-top;
+  }
+
+
+
   .picturetitlefirst {
     font-family: 'Chicle', cursive;
     font-size: 30px;
