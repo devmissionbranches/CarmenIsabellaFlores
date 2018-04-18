@@ -192,16 +192,17 @@ dd, dl {
 
   .picture {
     width: 25%;
+    border: 15px ridge #856e57;
   }
   .picturetitlefirst {
   font-family: 'Chicle', cursive;
   font-size:30px;
-  border: 15px ridge #856e57;
+
 
   }
 
   .picturetitle{  margin-top:0;
     font-family: 'Chicle', cursive;
     font-size:30px;
-    border: 15px ridge #856e57;
+
   }
