@@ -191,5 +191,10 @@ dd, dl {
   }
 
   .picture {
-    width: 25%; 
+    width: 25%;
+  }
+  .picturetitle {
+    font-family: 'Chicle', cursive;
+  font-size:30px;
+
   }
