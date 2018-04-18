@@ -197,7 +197,7 @@ dd, dl {
   }
 
   img.picture {
-    vertical-align: text-top;
+    vertical-align: text-bottom;
   }
 
 
@@ -206,11 +206,13 @@ dd, dl {
     font-family: 'Chicle', cursive;
     font-size: 30px;
     margin-top: 0;
+    vertical-align: text-bottom;
 }
 
   .picturetitle{  margin-top:0;
     font-family: 'Chicle', cursive;
     font-size:30px;
     margin-top:0;
+    vertical-align: text-bottom;
 
   }
