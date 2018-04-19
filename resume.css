@@ -82,27 +82,27 @@ a:visied {
 .heading {}
 
 .para {
-  color: #000;
+  color: #64483a;
   Font-size: 22px;
-  font-family: 'EB Garamond', serif;
+  font-family:'Poiret One', cursive;
   text-align: left;
   margin: 0;
   width: 100%;
 }
 
 .title {
-  color: #000;
+  color: #64483a;
   Font-size: 35px;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Poiret One', cursive;
   text-align: left;
   margin: 0;
   width: 100%;
 }
 
 .maintitle {
-  color: #000;
+  color: #64483a;
   Font-size: 45px;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Poiret One', cursive;
   text-align: center;
   margin: 0;
   width: 100%;
@@ -199,17 +199,17 @@ dd, dl {
 
 }*/
 .parados {
-  color: #000;
+  color: #64483a;
   Font-size: 22px;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Poiret One', cursive;
   text-align: center;
   margin: 0;
   width: 100%;
 }
 .paratres {
-  color: #000;
+  color: #64483a;
   Font-size: 22px;
-  font-family:'EB Garamond', serif;
+  font-family:'Poiret One', cursive;
   text-align: right;
   margin: 0;
   width: 100%;
