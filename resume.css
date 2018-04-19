@@ -6,7 +6,7 @@ body {
   color: #856e57;
   Font-size: 20px;
   font-weight: bold;
-  font-family: 'Chicle', cursive;
+  font-family:  'Chicle', cursive;
   margin: 0;
   width: 100%;
 }
@@ -82,34 +82,34 @@ a:visied {
 .heading {}
 
 .para {
-  color: #64483a;
+  color: #000;
   Font-size: 22px;
-  font-family: 'Poiret One', cursive;
-  text-align: center;
+  font-family: 'EB Garamond', serif;
+  text-align: left;
   margin: 0;
   width: 100%;
 }
 
 .title {
-  color: #64483a;
+  color: #000;
   Font-size: 35px;
-  font-family: 'Poiret One', cursive;
-  text-align: center;
+  font-family: 'EB Garamond', serif;
+  text-align: left;
   margin: 0;
   width: 100%;
 }
 
 .maintitle {
-  color: #64483a;
+  color: #000;
   Font-size: 45px;
-  font-family: 'Poiret One', cursive;
+  font-family: 'EB Garamond', serif;
   text-align: center;
   margin: 0;
   width: 100%;
 }
 
 .WhitespaceBackground {
-  background-image: url("https://wallpapercave.com/wp/AiuO8fo.jpg");
+  background-image: url("resume.jpg");
     background-repeat: repeat;
 
 }
@@ -198,3 +198,21 @@ dd, dl {
   padding:2%;
 
 }*/
+.parados {
+  color: #000;
+  Font-size: 22px;
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+}
+.paratres {
+  color: #000;
+  Font-size: 22px;
+  font-family:'EB Garamond', serif;
+  text-align: right;
+  margin: 0;
+  width: 100%;
+}
+
+/*#64483a
