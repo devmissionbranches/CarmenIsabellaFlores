@@ -94,7 +94,6 @@ a:visied {
 background-image: url("http://3.bp.blogspot.com/-1duR0pNeUG8/VLRi3nIEgkI/AAAAAAAAOC0/WxJwubjRBe0/s1600/kumawalls-04.jpg");
   background-size: cover;
   background-repeat: repeat;
-
   display:flex;
    }
 
@@ -181,13 +180,13 @@ dd, dl {
   }
 
   .right {
-    width: 50%;
-   padding: 4%;
+    width: 35%;
+   padding: 2%;
   }
 
 
   .left{
-    width: 50%;
+    width: 35%;
     padding:2%;
 
   }
