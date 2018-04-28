@@ -91,9 +91,11 @@ a:visied {
 
 
 .WhitespaceBackground{
-background-image: url("http://www.litury.com/wp-content/uploads/2017/12/photo-fond-d-ecran-kawaii.jpg");
+background-image: url("http://3.bp.blogspot.com/-1duR0pNeUG8/VLRi3nIEgkI/AAAAAAAAOC0/WxJwubjRBe0/s1600/kumawalls-04.jpg");
   background-size: cover;
   background-repeat: repeat;
+
+  display:flex;
    }
 
 
@@ -191,8 +193,9 @@ dd, dl {
   }
 
   .picture {
-    width: 25%;
+    width: 50%;
     border: 15px ridge #856e57;
+    margin-bottom: 30;
 
   }
 
