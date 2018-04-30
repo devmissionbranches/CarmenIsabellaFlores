@@ -1,53 +1,44 @@
 * {
   box-sizing: border-box;
 }
-body{
-  color:#856e57;
+
+body {
+  color: #856e57;
   Font-size: 20px;
   font-weight: bold;
   font-family: 'Chicle', cursive;
   margin: 0;
-  width:100%;
-
-
+  width: 100%;
 }
-::selection{
+
+::selection {
   background: #0092d1;
 }
+
 a {
   font-weight: bold;
   text-decoration: none;
-  color:#ead18f;
-}
-a:hover {
-  color:#fff;
-}
-a:visied {
-  color:#3e5ca8;
+  color: #ead18f;
 }
 
-.masthead,
-.introduction,
-.location,
-.questions,
-.content-footer,
-.answers,
-{
+a:hover {
+  color: #fff;
+}
+
+a:visied {
+  color: #3e5ca8;
+}
+
+.masthead, .introduction, .location, .questions, .content-footer, .answers, {
   padding-left: 2em;
   padding-right: 2em;
-
 }
 
-.masthead-intro,
-.masthead-heading,
-.content-footer > p,
-.social {
+.masthead-intro, .masthead-heading, .content-footer>p, .social {
   text-align: center;
 }
 
-.introduction,
-.location,
-.questions {
+.introduction, .location, .questions {
   max-width: 38em;
   text-align: center;
 }
@@ -55,9 +46,7 @@ a:visied {
 /*margin-left: auto;
 margin-right: auto;*/
 
-.introduction > p,
-.location > p,
-.content-footer > p, {
+.introduction>p, .location>p, .content-footer>p, {
   font-weight: 300;
   letter-spacing: 0.05em;
 }
@@ -65,65 +54,60 @@ margin-right: auto;*/
 .masthead {
   padding: 6em 0;
   background-image: url(https://wallpaper.wiki/wp-content/uploads/2017/06/Free-backgrounds-webmed-wallpapers-kawaii.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-top: solid 1em #856e57;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em #856e57;
 }
 
 .masthead-intro {
-	/* Layout Declarations */
-	margin-bottom: 0.1em;
-	/* Typography Declarations */
-	color: #6f4e2f;
-	font-family: 'Chicle', cursive;
-	font-size: 2em;
+  /* Layout Declarations */
+  margin-bottom: 0.1em;
+  /* Typography Declarations */
+  color: #6f4e2f;
+  font-family: 'Chicle', cursive;
+  font-size: 2em;
 }
 
 .masthead-heading {
-	/* Layout Declarations */
-	margin-top: -0.2em;
-	/* Typography Declarations */
-	color: #d84bab;
-	font-family: 'Chicle', cursive;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 6em;
-	letter-spacing: -0.02em;
-	text-transform: uppercase;
-	text-shadow: 0px 3px 0px #e792cc;
+  /* Layout Declarations */
+  margin-top: -0.2em;
+  /* Typography Declarations */
+  color: #d84bab;
+  font-family: 'Chicle', cursive;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-shadow: 0px 3px 0px #e792cc;
 }
 
 .heading {
-	/* Layout Declarations */
-	max-width: 19em;
+  /* Layout Declarations */
+  max-width: 19em;
   margin: 0;
 }
 
 /* margin-top: 2em; DELETED */
 
-
 .question {
-	/* Layout Declarations */
-	margin: 2em 0 1em 0;
-	/* Typography Declarations */
-	color: #d53fa5;
-	font-family: 'Chicle', cursive;
-	font-size: 1.2em;
-	font-weight: bold;
+  /* Layout Declarations */
+  margin: 2em 0 1em 0;
+  /* Typography Declarations */
+  color: #d53fa5;
+  font-family: 'Chicle', cursive;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 .answer {
-	/* Layout Declarations */
-	margin-left: 0em;
+  /* Layout Declarations */
+  margin-left: 0em;
 }
-
-
-
-
 
 @media screen and (max-width: 500px) {
   .masthead {
-    padding:  3em 0;
+    padding: 3em 0;
   }
   .masthead-heading {
     font-size: 3em;
@@ -137,40 +121,36 @@ margin-right: auto;*/
   border: 7px ridge #856e57;
 }*/
 
-.WhitespaceBackground{
-background-image: url("https://www.walldevil.com/wallpapers/a33/1815-wallpaper-custom-super-kawaii.jpg");
+.WhitespaceBackground {
+  background-image: url("https://www.walldevil.com/wallpapers/a33/1815-wallpaper-custom-super-kawaii.jpg");
   background-repeat: no-repeat;
-    background-size: cover;
-  display:flex;
+  background-size: cover;
+  display: flex;
 }
 
-
-
-
 ul {
- list-style-type: none;
- margin: 0;
- padding: 0;
- border: 10px ridge #856e57;
- }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 10px ridge #856e57;
+}
 
 li {
- text-align: center;
- display: inline;
- position: relative;
- left: 5px;
- border: 4.5px outset #856e57;
- font-family: 'Chicle', cursive;
- font-size:30px;
- margin: 7px;
-
+  text-align: center;
+  display: inline;
+  position: relative;
+  left: 5px;
+  border: 4.5px outset #856e57;
+  font-family: 'Chicle', cursive;
+  font-size: 30px;
+  margin: 7px;
 }
 
 .secondlist {
-display: inline;
-border: 4.5px outset ##9b24db;
-font-family: 'Chicle', cursive;
-display:inline-block;
+  display: inline;
+  border: 4.5px outset ##9b24db;
+  font-family: 'Chicle', cursive;
+  display: inline-block;
 }
 
 .List {
@@ -180,62 +160,58 @@ display:inline-block;
   padding: 10px;
   margin: 0 auto;
   text-align: center;
-
 }
 
 dd, dl {
   margin: 0;
 }
 
-
-
-
 .instagram {
   width: 15%;
   margin-left: 42.5%;
   border: 7px ridge #856e57;
-
- }
-
-
+}
 
 /* border: 3px dotted #4e3318;*/
 
 .content-footer {
-	background-color: hsla(30, 21%, 43%, 1);
+  background-color: hsla(30, 21%, 43%, 1);
   border: 15px ridge #856e57;
   overflow: auto;
 }
 
 /*padding: 1em 0;*/
+
 /* margin-top: 5em; DELETED */
 
-
-* {box-sizing:border-box}
+* {
+  box-sizing: border-box
+}
 
 /* Slideshow container */
+
 .slideshow-container {
   width: 90%;
-
 }
 
 .right {
   width: 50%;
- padding: 4%;
+  padding: 4%;
 }
 
-
-.left{
+.left {
   width: 50%;
-  padding:2%;
-
+  padding: 2%;
 }
+
 /* Hide the images by default */
+
 .mySlides {
-    display: none;
+  display: none;
 }
 
 /* Next & previous buttons */
+
 .prev, .next {
   cursor: pointer;
   position: relative;
@@ -251,17 +227,20 @@ dd, dl {
 }
 
 /* Position the "next button" to the right */
+
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
+
 .prev:hover, .next:hover {
   background-color: rgba(99, 80, 59, 1);
 }
 
 /* Caption text */
+
 .text {
   color: #rgba(99, 80, 59, 1);
   font-size: 30px;
@@ -273,6 +252,7 @@ dd, dl {
 }
 
 /* Number text (1/3 etc) */
+
 .numbertext {
   color: #rgba(99, 80, 59, 1);
   font-size: 25px;
@@ -280,8 +260,6 @@ dd, dl {
   position: relative;
   bottom: 0;
 }
-
-
 
 /* The dots/bullets/indicators */
 
@@ -301,6 +279,7 @@ dd, dl {
 }*/
 
 /* Fading animation */
+
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -309,34 +288,39 @@ dd, dl {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
 }
 
-.puppy{
+.puppy {
   width: 25%;
   float: right;
 }
 
+.content-footer>p {
+  color: #44382c;
+  display: inline-block;
+}
 
-
-
-
-.content-footer > p {
-  color:#44382c;
-  display:inline-block;
-  }
-
-.icon {width: 60px;
-  height:60px;
+.icon {
+  width: 60px;
+  height: 60px;
   margin-left: 18px;
   margin-top: 15px;
-  }
+}
 
 .quote {
   margin-top: 35px;

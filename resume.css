@@ -6,7 +6,7 @@ body {
   color: #856e57;
   Font-size: 20px;
   font-weight: bold;
-  font-family:  'Chicle', cursive;
+  font-family: 'Chicle', cursive;
   margin: 0;
   width: 100%;
 }
@@ -84,7 +84,7 @@ a:visied {
 .para {
   color: #64483a;
   Font-size: 22px;
-  font-family:'Poiret One', cursive;
+  font-family: 'Poiret One', cursive;
   text-align: left;
   margin: 0;
   width: 100%;
@@ -109,9 +109,9 @@ a:visied {
 }
 
 .WhitespaceBackground {
-    background-image: url("https://wallpapertag.com/wallpaper/full/8/0/9/127761-download-free-light-yellow-background-1920x1080-for-iphone-6.jpg");
-    background-repeat: repeat;
-    background-size: cover;
+  background-image: url("https://wallpapertag.com/wallpaper/full/8/0/9/127761-download-free-light-yellow-background-1920x1080-for-iphone-6.jpg");
+  background-repeat: repeat;
+  background-size: cover;
 }
 
 ul {
@@ -198,6 +198,7 @@ dd, dl {
   padding:2%;
 
 }*/
+
 .parados {
   color: #64483a;
   Font-size: 22px;
@@ -206,10 +207,11 @@ dd, dl {
   margin: 0;
   width: 100%;
 }
+
 .paratres {
   color: #64483a;
   Font-size: 22px;
-  font-family:'Poiret One', cursive;
+  font-family: 'Poiret One', cursive;
   text-align: right;
   margin: 0;
   width: 100%;
