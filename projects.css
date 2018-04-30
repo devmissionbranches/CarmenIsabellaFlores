@@ -171,6 +171,7 @@ dd, dl {
   width: 50%;
   border: 15px ridge #856e57;
   margin-bottom: 30;
+  box-shadow: 5px 10px 8px #875822;
 }
 
 img.picture {
