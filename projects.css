@@ -40,7 +40,7 @@ a:visied {
 
 .masthead {
   padding: 6em 0;
-  background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/06/Free-backgrounds-webmed-wallpapers-kawaii.jpg");
+  background-image: url("pictures/wall.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-top: solid 1em #856e57;
@@ -80,7 +80,7 @@ a:visied {
 }
 
 .WhitespaceBackground {
-  background-image: url("pictures/wall.jpg");
+  background-image: url("http://3.bp.blogspot.com/-1duR0pNeUG8/VLRi3nIEgkI/AAAAAAAAOC0/WxJwubjRBe0/s1600/kumawalls-04.jpg");
   background-size: cover;
   background-repeat: repeat;
   display: flex;
