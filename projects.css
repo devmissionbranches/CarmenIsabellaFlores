@@ -137,6 +137,15 @@ dd, dl {
   margin-top: 15px;
 }
 
+.icon2 {
+  width: 60px;
+  height: 60px;
+  margin-left: 18px;
+  margin-top: 15px;
+  border-radius: 14px;
+
+}
+
 .content-footer {
   background-color: hsla(30, 21%, 43%, 1);
   border: 15px ridge #856e57;
@@ -191,4 +200,10 @@ img.picture {
   font-size: 30px;
   margin-top: 0;
   vertical-align: text-bottom;
+}
+
+
+.puppy {
+  width: 85%;
+  float: right;
 }
