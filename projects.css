@@ -176,6 +176,11 @@ dd, dl {
   padding: 2%;
 }
 
+.third {
+  width: 30%;
+  padding: 2%;
+}
+
 .picture {
   width: 50%;
   border: 15px ridge #856e57;
