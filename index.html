@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href="home.css">
     <link href="https://fonts.googleapis.com/css?family=Chicle" rel="stylesheet">
-    <link rel="icon" href="favicontwotwo.ico">
+    <link rel="icon" href="favicontwo.ico">
 
 
 </head>
@@ -59,87 +59,73 @@
 
     <div class="WhitespaceBackground">
 
-        <div class="left">
-            <div class="introduction">
-                <h1 class="heading">Carmen Isabella Flores</h1>
-                <p> Hello, welcome to my personal website. I created this website from scatch using html, css, and javascript.
-                    <br> My name is Carmen Isabella Flores and I'm currently a student at Dev mission learning to code.
-                    <br> I'm from San Francisco, California. Born and raised in the beautiful bay.
-                    <br>Currently the only languages I know are Spanish and English. I hope to one day learn more languages such as Html, Css, and Js. </p>
-            </div>
+      <!-- Container for the image gallery -->
+      <div class="container">
+
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+          <div class="numbertext">1 / 6</div>
+            <img src="img_woods_wide.jpg" style="width:100%">
         </div>
 
-
-
-
-
-
-
-        <div class="right">
-
-
-            <!-- Slideshow container -->
-            <div class="slideshow-container">
-
-                <!-- Full-width images with number and caption text -->
-                <div class="mySlides fade">
-                    <div class="numbertext">1 / 6</div>
-                    <img src="pictures\melol.jpg" style="width:85%">
-                    <div class="text">Carmen</div>
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">2 / 6</div>
-                    <img src="https://instagram.fsnc1-1.fna.fbcdn.net/vp/2c04d62bcbe8498e0a93dc0303f9a9c7/5B68BFD7/t51.2885-15/s750x750/sh0.08/e35/29404248_202048653722373_7407693475967139840_n.jpg" style="width:100%">
-                    <div class="text">Google Visit</div>
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">3 / 6</div>
-                    <img src="https://instagram.fsnc1-1.fna.fbcdn.net/vp/dc79d1b7e338db0ff15b062b5e69b877/5B5A5FA4/t51.2885-15/s640x640/sh0.08/e35/28432972_1989537318033092_1519002178792980480_n.jpg" style="width:100%">
-                    <div class="text">Opening up a Computer</div>
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">4 / 6</div>
-                    <img src="pictures\workshop.JPG" style="width:100%">
-                    <div class="text">Workshop</div>
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">5 / 6</div>
-                    <img src="https://instagram.fsnc1-1.fna.fbcdn.net/vp/e5c1b97aba2b933d192da1623ef36dd7/5B5557BC/t51.2885-15/e35/29400651_156404091722441_8015287299442999296_n.jpg" style="width:100%">
-                    <div class="text">At Valencia Gardens</div>
-                </div>
-
-                <div class="mySlides fade">
-                    <div class="numbertext">6 / 6</div>
-                    <img src="pictures\photobooth.jpg" style="width:100%">
-                    <div class="text">PhotoBooth at Google</div>
-                </div>
-
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-
-
-            <!-- The dots/circles -->
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-            </div>
-            <img src="https://media.giphy.com/media/KY7SQGKthgplm/giphy.gif" class="puppy" alt="Puppy Swimming Gif">
-
-
-
+        <div class="mySlides">
+          <div class="numbertext">2 / 6</div>
+            <img src="img_5terre_wide.jpg" style="width:100%">
         </div>
-        <!--<div>
-     <img src="https://media.giphy.com/media/KY7SQGKthgplm/giphy.gif" class="puppy" alt="Puppy Swimming Gif" >
-   </div>-->
 
-    </div>
+        <div class="mySlides">
+          <div class="numbertext">3 / 6</div>
+            <img src="img_mountains_wide.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 6</div>
+            <img src="img_lights_wide.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">5 / 6</div>
+            <img src="img_nature_wide.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">6 / 6</div>
+            <img src="img_snow_wide.jpg" style="width:100%">
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail images -->
+        <div class="row">
+          <div class="column">
+            <img class="demo cursor" src="img_woods.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img_5terre.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img_mountains.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img_lights.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img_nature.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="img_snow.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+          </div>
+        </div>
+      </div>
+
+        
 
 
 
