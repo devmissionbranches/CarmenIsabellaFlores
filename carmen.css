@@ -207,16 +207,59 @@ dd, dl {
 
 
 
+.maintext {
+color: #725e4b;
+Font-size: 35px;
+font-weight: bold;
+font-family: 'Chicle', cursive;
+margin: 0;
+width: 100%;
+text-align: center;
+margin-bottom: 35px;
+
+}
+
+.maintitle {
+  color: #856e57;
+  Font-size: 55px;
+  font-weight: bold;
+  font-family: 'Chicle', cursive;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.mainphoto {
+  width: 12%;
+  margin-left: 42.5%;
+  border: 7px ridge #856e57;
+  margin-top: 35px;
+}
 
 
+.main {
+  width: 100%;
 
 
-
+}
 
 .puppy {
-  width: 25%;
+  width: 20%;
   float: right;
 }
+
+
+.icon2 {
+  width: 60px;
+  height: 60px;
+  margin-left: 18px;
+  margin-top: 15px;
+  border-radius: 14px;
+
+}
+
+
 
 .content-footer>p {
   color: #44382c;
