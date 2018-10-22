@@ -1,0 +1,384 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #856e57;
+  Font-size: 20px;
+  font-weight: bold;
+  font-family: 'Chicle', cursive;
+  margin: 0;
+  width: 100%;
+}
+
+::selection {
+  background: #0092d1;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #ead18f;
+}
+
+a:hover {
+  color: #fff;
+}
+
+a:visied {
+  color: #3e5ca8;
+}
+
+.masthead, .introduction, .location, .questions, .content-footer, .answers, {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.masthead-intro, .masthead-heading, .content-footer>p, .social {
+  text-align: center;
+}
+
+.introduction, .location, .questions {
+  max-width: 38em;
+  text-align: center;
+}
+
+/*margin-left: auto;
+margin-right: auto;*/
+
+.introduction>p, .location>p, .content-footer>p, {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url("pictures/wall.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em #856e57;
+}
+
+.masthead-intro {
+  /* Layout Declarations */
+  margin-bottom: 0.1em;
+  /* Typography Declarations */
+  color: #6f4e2f;
+  font-family: 'Chicle', cursive;
+  font-size: 2em;
+}
+
+.masthead-heading {
+  /* Layout Declarations */
+  margin-top: -0.2em;
+  /* Typography Declarations */
+  color: #d84bab;
+  font-family: 'Chicle', cursive;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-shadow: 0px 3px 0px #e792cc;
+}
+
+.heading {
+  /* Layout Declarations */
+  max-width: 19em;
+  margin: 0;
+}
+
+/* margin-top: 2em; DELETED */
+
+.question {
+  /* Layout Declarations */
+  margin: 2em 0 1em 0;
+  /* Typography Declarations */
+  color: #d53fa5;
+  font-family: 'Chicle', cursive;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.answer {
+  /* Layout Declarations */
+  margin-left: 0em;
+}
+
+@media screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+}
+
+/*img {
+  width: 300px;
+  margin-left: 800px;
+  margin-top: 50px;
+  border: 7px ridge #856e57;
+}*/
+
+.WhitespaceBackground {
+  background-image: url("pictures/wall4.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 10px ridge #856e57;
+}
+
+li {
+  text-align: center;
+  display: inline;
+  position: relative;
+  left: 5px;
+  border: 4.5px outset #856e57;
+  font-family: 'Chicle', cursive;
+  font-size: 30px;
+  margin: 7px;
+}
+
+.secondlist {
+  display: inline;
+  border: 4.5px outset ##9b24db;
+  font-family: 'Chicle', cursive;
+  display: inline-block;
+}
+
+.List {
+  background-color: hsla(30, 21%, 43%, 1);
+  padding: 10px;
+  letter-spacing: 2px;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+dd, dl {
+  margin: 0;
+}
+
+.instagram {
+  width: 15%;
+  margin-left: 42.5%;
+  border: 7px ridge #856e57;
+}
+
+/* border: 3px dotted #4e3318;*/
+
+.content-footer {
+  background-color: hsla(30, 21%, 43%, 1);
+  border: 15px ridge #856e57;
+  overflow: auto;
+}
+
+/*padding: 1em 0;*/
+
+/* margin-top: 5em; DELETED */
+
+
+
+
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+
+.maintext {
+color: #856e57;
+Font-size: 35px;
+font-weight: bold;
+font-family: 'Chicle', cursive;
+margin: 0;
+width: 100%;
+text-align: center;
+margin-bottom: 35px;
+text-shadow: 1px 1px 2px pink;
+
+
+}
+
+.maintitle {
+  color: #856e57;
+  Font-size: 55px;
+  font-weight: bold;
+  font-family: 'Chicle', cursive;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 35px;
+  text-shadow: 5px 5px 5px pink;
+
+}
+
+.mainphoto {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+  width: 20%;
+  border: 7px ridge #856e57;
+  margin-top: 35px;
+}
+
+
+.main {
+  width: 100%;
+
+
+}
+
+.puppy {
+  width: 20%;
+  float: left;
+}
+
+
+.puppy2 {
+  width: 20%;
+  float: right;
+}
+
+.icon2 {
+  width: 60px;
+  height: 60px;
+  margin-left: 18px;
+  margin-top: 15px;
+  border-radius: 14px;
+
+}
+
+
+
+.content-footer>p {
+  color: #44382c;
+  display: inline-block;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  margin-left: 18px;
+  margin-top: 15px;
+}
+
+.quote {
+  margin-top: 35px;
+  float: right;
+}
+
+
+
+/* Style the Image Used to Trigger the Modal */
+.myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 15px ridge #856e57;
+    box-shadow: 5px 10px 8px #875822;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
