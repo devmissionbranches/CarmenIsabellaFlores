@@ -274,7 +274,7 @@ text-shadow: 1px 1px 2px pink;
 
 
 .content-footer>p {
-  color: #cc005c;
+  color: #fff280;
   display: inline-block;
 }
 
@@ -288,9 +288,8 @@ text-shadow: 1px 1px 2px pink;
 .quote {
   margin-top: 35px;
   float: right;
-  color: #cc005c;
-text-shadow: 2px 2px 2px #fff280;
-font-family: 'Chicle', cursive;
+  text-shadow: 1px 1px 1px black;
+  font-family: 'Dancing Script', cursive;
 }
 
 
