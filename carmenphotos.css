@@ -21,6 +21,20 @@ a {
   color: #ead18f;
 }
 
+
+.photo {
+  display: block;
+
+    margin-right: auto;
+    margin-left: auto;
+
+  width: 20%;
+  border: 7px ridge #856e57;
+  margin-top: 35px;
+
+
+}
+
 a:hover {
   color: #fff;
 }
@@ -236,10 +250,9 @@ text-shadow: 1px 1px 2px pink;
 }
 
 .mainphoto {
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
-  width: 20%;
+
+margin-left: 5%;
+  width: 25%;
   border: 7px ridge #856e57;
   margin-top: 35px;
 }
