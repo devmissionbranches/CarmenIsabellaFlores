@@ -15,6 +15,20 @@ body {
   background: #0092d1;
 }
 
+.photo {
+  /* display: block; */
+
+    /* margin-right: auto;
+    margin-left: auto; */
+
+
+  width: 20%;
+  border: 7px ridge #856e57;
+  margin-top: 35px;
+
+
+}
+
 a {
   font-weight: bold;
   text-decoration: none;
